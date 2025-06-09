@@ -17,7 +17,7 @@ const Form = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    const correctEmail = "tropadigital@gmail.com";
+    const correctEmail = "tropadigital@email.com";
     const correctPassword = "senha123";
 
     if (email === correctEmail && password === correctPassword) {
