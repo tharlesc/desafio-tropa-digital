@@ -36,6 +36,8 @@ src/ <br/>
 ## 🧩 Funcionalidades Implementadas
 
 - ✅ **Tela de Login** (simulada)
+  - Login: tropadigital@email.com
+  - Senha: senha123
 - ✅ **Tela interna com layout do sistema**
 - ✅ **Menu lateral colapsável**
 - ✅ **Responsividade total**
