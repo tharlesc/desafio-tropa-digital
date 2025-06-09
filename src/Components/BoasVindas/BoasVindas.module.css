@@ -1,0 +1,30 @@
+.BoasVindas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Roboto, sans-serif;
+}
+
+.Welcome {
+  
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0%;
+  color: var(--text);
+
+  span {
+    font-weight: 600;
+    color: black;
+  }
+
+  @media (max-width: 790px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.Title {
+  color: var(--laranja);
+}

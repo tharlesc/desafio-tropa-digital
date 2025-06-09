@@ -1,0 +1,52 @@
+.InputFile {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 273px;
+    height: 40px;
+    z-index: 100;
+    padding: 10px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  button {
+    position: absolute;
+    z-index: 1;
+    width: 273px;
+    height: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: none;
+    border-radius: 100px;
+
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+
+    span {
+      color: var(--text);
+      font: var(--span);
+    }
+  }
+}

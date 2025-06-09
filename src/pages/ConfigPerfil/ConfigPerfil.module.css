@@ -1,0 +1,19 @@
+.ConfigPerfil {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .MudarNome {
+    margin-top: 2rem;
+    display: flex;
+    gap: 50px;
+
+    span {
+      font: var(--span);
+      color: var(--text);
+    }
+    h3 {
+      font: var(--fonte);
+    }
+  }
+}

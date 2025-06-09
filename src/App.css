@@ -1,0 +1,51 @@
+:root {
+  --back: #f9fbff;
+  --laranja: #cc6237;
+  --hover: #e67345;
+  --text: rgba(42, 77, 142, 0.5);
+  --borda: rgba(9, 66, 143, 0.17);
+  --fonte: 700 26px "Roboto", sans-serif;
+  --span: 400 12px "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--back);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  width: 756.5px;
+  height: 498px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 100px 200px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+
+  @media (max-width: 790px) {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: auto;
+    margin: auto;
+    background-color: transparent;
+    box-shadow: none;
+
+
+  }
+}

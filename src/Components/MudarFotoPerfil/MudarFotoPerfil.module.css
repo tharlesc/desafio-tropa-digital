@@ -1,0 +1,22 @@
+.MudarFotoPerfil {
+    
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .mudarimg {
+        width: 100px;
+        border-radius: 50px;
+    }
+
+    .inputfoto {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    span {
+      color: var(--text);
+      font: var(--span);
+    }
+}

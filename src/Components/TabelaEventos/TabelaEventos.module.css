@@ -1,0 +1,80 @@
+/* src/Components/Lista/Lista.module.css */
+
+.tabelaContainer {
+  width: 100%;
+  overflow-x: auto; /* Para rolagem em telas menores */
+}
+
+.tabelaContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabelaContainer thead th {
+  text-align: left;
+  padding: 12px 20px; /* Mais padding */
+  color: var(--laranja);
+  opacity: 70%;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  border-bottom: 1px solid var(--laranja);
+}
+
+.tabelaContainer tbody tr {
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0; /* Linha divisória suave */
+  transition: background-color 0.2s ease; /* Transição suave no hover */
+}
+
+.tabelaContainer tbody tr:last-child {
+  border-bottom: none; /* Remove a borda da última linha */
+}
+
+.tabelaContainer tbody tr:hover {
+  background-color: #f9f9f9; /* Efeito de hover mais sutil */
+}
+
+.tabelaContainer tbody td {
+  padding: 12px 20px; /* Mais padding */
+  color: var(--text);
+  font-size: 0.9em;
+}
+
+.statusDot {
+  display: inline-block;
+  width: 10px; /* Um pouco maior */
+  height: 10px; /* Um pouco maior */
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle; /* Alinha verticalmente com o texto */
+}
+
+.ativo {
+  background-color: rgba(77, 239, 0, 1); /* Verde mais vibrante para ativo */
+}
+
+.inativo {
+  background-color: #dc3545; /* Vermelho mais vibrante para inativo */
+}
+
+.data {
+  position: relative; /* Necessário para posicionar o tooltip */
+}
+
+.menuIcon {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 5px;
+  font-size: 1.2em; /* Um pouco maior */
+  color: #666;
+  transition: color 0.2s ease;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.menuIcon:hover {
+  color: #333;
+}

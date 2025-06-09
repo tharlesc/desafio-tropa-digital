@@ -1,0 +1,43 @@
+:root {
+  --backinput: #f6f6f6;
+  --texto: #8291af;
+}
+
+.Form {
+  label {
+    font: 600 13px "Roboto", sans-serif;
+    color: var(--laranja);
+  }
+
+  input {
+    width: 299px;
+    height: 40px;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-radius: 100px;
+    background-color: var(--backinput);
+    margin-bottom: 1rem;
+
+    &:focus {
+      outline: 1px solid var(--hover);
+    }
+
+    &::-webkit-input-placeholder {
+      color: var(--texto);
+      font-size: 12px;
+    }
+  }
+
+  .errorMessage {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: 500;
+
+    p {
+      color: #cc6237;
+    }
+  }
+}

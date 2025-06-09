@@ -1,0 +1,40 @@
+.BotaoBranco {
+  width: auto;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border-radius: 33px;
+  border: none;
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
+  transition: all 0.5s;
+
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
+
+  &:hover {
+    color: rgb(255, 255, 255);
+    background-color: var(--hover);
+  }
+
+  &:focus {
+    color: rgb(255, 255, 255);
+    background-color: var(--laranja);
+  }
+
+  &:active {
+    color: rgb(255, 255, 255);
+    background-color: var(--laranja);
+  }
+}

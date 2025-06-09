@@ -1,0 +1,67 @@
+.ListaInscritos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .titulo {
+    color: #e75a1a;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  span {
+    font: 500 10px "Roboto", sans-serif;
+    color: var(--text);
+  }
+
+  .lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font: 500 16px "Roboto", sans-serif;
+  }
+
+  .card {
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05);
+  }
+
+  .nomeEmail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email {
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  .status {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .confirmado {
+    background-color: #e6f4ea;
+    color: #2e7d32;
+  }
+
+  .pendente {
+    background-color: #fff4e5;
+    color: #ef6c00;
+  }
+
+  .cancelado {
+    background-color: #fcebea;
+    color: #d32f2f;
+  }
+}

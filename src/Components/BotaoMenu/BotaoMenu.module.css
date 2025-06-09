@@ -1,0 +1,56 @@
+.BotaoMenu {
+  position: relative;
+  background-color: #ffffff;
+  width: 180px;
+  height: 35px;
+  gap: 5px;
+  padding: 10px;
+  border: none;
+  font-family: "Roboto", sans-serif black;
+  font-weight: 600;
+  text-align: left;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    width: 40%;
+    height: 1px;
+    background-color: var(--laranja);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  &:hover::after {
+    transform: translateX(-50%) scaleX(1);
+    opacity: 1;
+  }
+
+  &:focus {
+    background-color: var(--laranja);
+    outline: none;
+    color: #ffffff;
+
+    img {
+      filter: invert(100);
+    }
+  }
+
+  &:active {
+    background-color: var(--laranja);
+    color: #ffffff;
+  }
+}
+
+.ativo {
+  background-color: var(--laranja); 
+  color: white;
+}

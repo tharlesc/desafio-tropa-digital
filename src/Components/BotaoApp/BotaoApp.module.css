@@ -1,0 +1,29 @@
+.BotaoApp {
+  width: auto;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 15px;
+  background-color: var(--laranja);
+  border-radius: 33px;
+  border: none;
+  transition: all 1s;
+  cursor: pointer;
+
+  color: var(--back);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
+
+  &:hover {
+      background-color: var(--hover);
+  }
+}

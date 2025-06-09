@@ -1,0 +1,32 @@
+.Logon {
+  width: 339px;
+  height: 478px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  @media (max-width: 790) {
+    display: flex;
+    width: auto;
+    margin: auto;
+    box-shadow: none;
+    border-radius: 0px;
+    justify-content: center;
+  }
+}
+
+.Logon img {
+  width: 160.6px;
+  height: 24.9px;
+}
+
+.Logon h1 {
+  font: 700 26px "Roboto", sans-serif;
+  color: var(--laranja);
+}
+
+.Logon p {
+  font: 400 13px "Roboto", sans-serif;
+  color: var(--text);
+}

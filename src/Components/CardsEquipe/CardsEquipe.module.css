@@ -1,0 +1,66 @@
+.CardsEquipe {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.Equipes {
+  background-color: var(--back);
+  width: 250px;
+  height: 300px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid var(--borda);
+  box-shadow: 50px black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+
+  cursor: pointer;
+  transition: all 1s;
+
+  @media (max-width: 790px) {
+    width: 200px;
+    height: 300px;
+  }
+
+  .img {
+    background-size: contain;
+    position: relative;
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      transition: all 1s;
+      image-resolution: from-image 70px;
+    }
+  }
+
+  .Pessoas {
+    color: var(--text);
+  }
+
+  button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    filter: invert();
+  }
+
+  &:hover {
+    background-color: #f9f9f9;
+
+    img {
+      scale: 1.2;
+    }
+  }
+}

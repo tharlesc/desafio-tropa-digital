@@ -1,0 +1,45 @@
+.Perfil {
+  width: 180px;
+  height: 42px;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .MolduraPerfil {
+    image-rendering: auto;
+    image-resolution: from-image 2dppx;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 15px;
+    border-width: 2px;
+    border: 1px solid rgba(204, 98, 55, 1);
+  }
+
+  .Info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .UserName {
+      width: 100%;
+      height: 15px;
+      font-family: Roboto;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 0%;
+    }
+
+    .Funcao {
+      width: 70px;
+      height: 15px;
+      font-family: Roboto;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 15px;
+      letter-spacing: 0%;
+    }
+  }
+}

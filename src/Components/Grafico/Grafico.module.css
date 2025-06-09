@@ -1,0 +1,33 @@
+.all {
+    display: flex;   
+    gap: 15px;
+    overflow: auto;
+    
+    @media (max-width: 790px) {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+.Grafico {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 1px dashed var(--borda);
+    border-radius: 15px;
+    
+    font: var(--fonte);
+
+    background-color:azure;
+
+    @media (max-width: 500px) {
+        width: 100%;
+        height: 250px;
+        
+    }
+}

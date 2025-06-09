@@ -1,0 +1,41 @@
+.appContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* botão do menu hamburguer */
+.OpcaoReduzido {
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  filter: invert();
+  z-index: 1000;
+}
+
+/* wrapper para manter botão posicionado corretamente */
+.menuToggleWrapper {
+  position: absolute;
+  z-index: 1000;
+}
+
+/* botão aparece apenas em telas pequenas */
+@media (max-width: 790px) {
+  .OpcaoReduzido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+}

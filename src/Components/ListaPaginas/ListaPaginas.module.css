@@ -1,0 +1,42 @@
+.ListaPaginas {
+  width: 210px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.ListaPaginas .link.ativo .BotaoMenu {
+  background-color: var(--laranja);
+  color: white;
+}
+
+.ListaPaginas .link.ativo .BotaoMenu:hover {
+  background-color: var(--laranja);
+  cursor: default;
+}
+
+.ListaPaginas .Setor {
+  width: 210px;
+  height: 15px;
+  gap: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 12%;
+  color: var(--text);
+}
+
+.ListaPaginas .Botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
