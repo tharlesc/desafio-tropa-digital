@@ -9,6 +9,7 @@ import {
   Team,
   Inscritos,
   ConfigPerfil,
+  Error404,
 } from "./pages";
 
 import { LayoutApp, LayoutPadrao } from "./Layout";
@@ -30,6 +31,9 @@ const Router = () => {
         <Route path="/Inscritos" element={<Inscritos />} />
         <Route path="/Perfil" element={<ConfigPerfil />} />
       </Route>
+
+      {/* Página não encontrada */}
+      <Route path="*" element={<Error404 />} />
     </Routes>
   );
 };

@@ -1,13 +1,10 @@
 .BoasVindas {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  font-family: Roboto, sans-serif;
-}
+  gap: 20px;}
 
 .Welcome {
   
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;

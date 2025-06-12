@@ -1,4 +1,5 @@
 import style from "./ListaPaginas.module.css";
+
 import { BotaoMenu } from "../BotaoMenu";
 
 import dashboard from "../../assets/icons/dashboard.svg";
